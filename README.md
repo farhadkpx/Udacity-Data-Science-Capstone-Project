@@ -2,11 +2,11 @@
 PySpark programming with Data Science Capstone project - SPARKIFY
 
 ## Sparkify Project Overview:
-Sparkify is a digital music service where users stream their favorite songs whenever they pleases, either using free tier that places advertisements in between the songs, or using the premium subscription model where they stream music as free, but pay a monthly flat rate. User can upgrade, downgrade or cancel their service at any time they want.  This music streaming service Sparkify is more like Spotify and Pandora music streaming services.
+Sparkify is a digital music service where users stream their favorite songs whenever they pleases, either using free tier that places advertisements in between the songs, or using the paid subscription model where they pay a monthly flat rate. User can upgrade, downgrade or cancel their service at any time they want.  This music streaming service Sparkify is more like Spotify, Pandora or Amazon music streaming services.
 
-This project is the final Capstone project of the Udacity Data Scientist Nanodegree program. The objective of this project is to learn how to manipulate realistic datasets using  pySpark programming language. 
+This project is the final Capstone project of the Udacity Data Scientist Nanodegree program. The objective of this project is to learn how to manipulate realistic datasets using  pySpark programming language. We will be converging our investigative analyses in figuring out why certain customers are leaving the steaming service. Once we distill out possible reasons with customer `churning/leaving`, we might be able to emulate and apply those findings in a bigger data environment.
 
-So, our job is to perform intricate detail feature engineering by mining the customers' data and implementing an appropriate model to predict possible customer churning. The goal if we’re able to predict precisely, when and how possible customer churning might happen, we can identify customers and offer them relevant promotion and will be able to retain them as continued customer.
+So, our job is to perform churning related data analysis and doing feature engineering by mining the customers' data, then implementing an appropriate model to predict possible customer churning. The goal if we’re able to predict precisely, when and how possible customer churning might happen, we can identify customers and offer them relevant promotion and will be able to retain them as continued customer thereby maximizing revenues.
 
 ## Blog post:
 Please check my blog post to get more details, here is the link.
@@ -15,9 +15,6 @@ Please check my blog post to get more details, here is the link.
 Load the `mini_sparkify_event_data.json` datasets.
 Create Python Jupyter Notebook with a Spark session added.
 Using PySpark and Python interchangeably for better graphical presentation. 
-
-## Communicate your business insights:
-
 
 ## Programming processes:
 - Exploratory data cleaning: fill the nan values , correct the data types, drop the outliers.
@@ -40,10 +37,6 @@ Though the LinearSVC spent more training time, but it can get the highest f1 sco
 
 ## Dataset Scope:
 We worked on a smaller dataset contains a subset (128MB) of the full dataset available (12GB). I doubt this smaller data subset is truly representative of the main set?
-
-## Licensing, Acknowledgements
-
-Sorry, for unwarranted mistakes.
 
 ## Licensing…acknowledgement:
 Since Udacity has provided us this dataset, they must get the credit as the true provider of Sparkify dataset. So I don't have any licensing entanglement to share with.
