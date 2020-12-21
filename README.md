@@ -13,17 +13,22 @@ Please check my blog post to get more details, here is the link.
 
 ## Key Steps for Project
 Load the `mini_sparkify_event_data.json` datasets.
-Create Python Jupyter Notebook with a Spark session added.
+
+Creating Python Jupyter Notebook with a Spark session added.
+
 Using PySpark and Python interchangeably for better graphical presentation. 
 
-## Programming processes:
-- Exploratory data cleaning: fill the nan values , correct the data types, drop the outliers.
-- Questioning data in a visualized format: exploratory data to look features' distributions and correlation with key label (churn).
-- Feature engineering: Redesigning new column features to streamlining dataset making them ready for data modeling
-- Vectorizing,  scaling, under sampling the data making ready for data modeling.
--  I choose logistic regression, linear svm classifier, decision tree and random forest classifier to train a baseline model.
-- Parametric evaluation of the model tuning a better model from best of them. - - so we choose f1 score as a metrics to measure models' performance.
-Project submission link: my project on Github
+## Programming sequence for binary classification modeling:
+- Exploratory data analyses: Basic statistical data analyses and finding missing values with correlated reasonings.
+- Questioning data in a visualized format: Exploratory data visual analyses analogous with possible customer churning behavior.
+
+> Detail page feature analyses in relation to churning behavioral trend.
+- Feature engineering: Redesigning new columns from existing features and streamlining them readying for data modeling.
+- Vectorizing,  Scaling, Under-Sampling the datasets and readying them for data modeling.
+- I choose logistic regression, linear svm, decision tree and random forest classifier to train for baseline model algorithms.
+- Parametric evaluation of the model tuning for better model performance from best of them.
+
+### Project submission link: my project on Github
 
 ## Key File Descriptions:
 1. mini_sparkify_event_data.json: Carefully fabricated music streaming data was provided by Udacity. This file is not available in the repository due to enormous size.
