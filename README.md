@@ -23,12 +23,13 @@ Using PySpark and Python interchangeably for better graphical presentation.
 - Questioning data in a visualized format: Exploratory data visual analyses analogous with possible customer churning behavior.
 
 > Detail page feature analyses in relation to churning behavioral trend.
+- Comparative churning behavior analyses with multiple scatterplots and location based churning projections.
 - Feature engineering: Redesigning new columns from existing features and streamlining them readying for data modeling.
 - Vectorizing,  Scaling, Under-Sampling the datasets and readying them for data modeling.
 - I choose logistic regression, linear svm, decision tree and random forest classifier to train for baseline model algorithms.
-- Parametric evaluation of the model tuning for better model performance from best of them.
+- Parametric tuning of the baseline model for better model performance.
 
-### Project submission link: my project on Github
+### `Project submission link: my project on Github`
 
 ## Key File Descriptions:
 1. mini_sparkify_event_data.json: Carefully fabricated music streaming data was provided by Udacity. This file is not available in the repository due to enormous size.
