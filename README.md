@@ -1,2 +1,49 @@
-# Udacity-Data-Science-Capstone-Project-
+# Udacity-Data-Science-Capstone-Project
 PySpark programming with Data Science Capstone project - SPARKIFY
+
+## Sparkify Project Overview:
+Sparkify is a digital music service where users stream their favorite songs whenever they pleases, either using free tier that places advertisements in between the songs, or using the premium subscription model where they stream music as free, but pay a monthly flat rate. User can upgrade, downgrade or cancel their service at any time they want.  This music streaming service Sparkify is more like Spotify and Pandora music streaming services.
+
+This project is the final Capstone project of the Udacity Data Scientist Nanodegree program. The objective of this project is to learn how to manipulate realistic datasets using  pySpark programming language. 
+
+So, our job is to perform intricate detail feature engineering by mining the customers' data and implementing an appropriate model to predict possible customer churning. The goal if we’re able to predict precisely, when and how possible customer churning might happen, we can identify customers and offer them relevant promotion and will be able to retain them as continued customer.
+
+## Blog post:
+Please check my blog post to get more details, here is the link.
+
+## Key Steps for Project
+Load the `mini_sparkify_event_data.json` datasets.
+Create Python Jupyter Notebook with a Spark session added.
+Using PySpark and Python interchangeably for better graphical presentation. 
+
+## Communicate your business insights:
+
+
+## Programming processes:
+- Exploratory data cleaning: fill the nan values , correct the data types, drop the outliers.
+- Questioning data in a visualized format: exploratory data to look features' distributions and correlation with key label (churn).
+- Feature engineering: Redesigning new column features to streamlining dataset making them ready for data modeling
+- Vectorizing,  scaling, under sampling the data making ready for data modeling.
+-  I choose logistic regression, linear svm classifier, decision tree and random forest classifier to train a baseline model.
+- Parametric evaluation of the model tuning a better model from best of them. - - so we choose f1 score as a metrics to measure models' performance.
+Project submission link: my project on Github
+
+## Key File Descriptions:
+1. mini_sparkify_event_data.json: Carefully fabricated music streaming data was provided by Udacity. This file is not available in the repository due to enormous size.
+2. sparkify.ipynb:  PySpark  notebook I’ve created with all necessary steps to build multiple models that predicts churn from the Sparkify data.
+
+## Running Jupyter notebooks:
+PySpark works incredibly slow while running `Machine Learning model-algorithms` on desktop/Laptop processing environment. Unless you have clustered or cloud computing access, I would say be patient and let your machine do what it supposed to do.
+
+## Result Summary:
+Though the LinearSVC spent more training time, but it can get the highest f1 score 0.702. And the LogisticRegression has a medium training time and f1 score, maybe I can tuning it to get a higher score. So I'll choose LinearSVC and LogisticRegression to tuning, and the result is as follows:
+
+## Dataset Scope:
+We worked on a smaller dataset contains a subset (128MB) of the full dataset available (12GB). I doubt this smaller data subset is truly representative of the main set?
+
+## Licensing, Acknowledgements
+
+Sorry, for unwarranted mistakes.
+
+## Licensing…acknowledgement:
+Since Udacity has provided us this dataset, they must get the credit as the true provider of Sparkify dataset. So I don't have any licensing entanglement to share with.
