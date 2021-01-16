@@ -30,20 +30,22 @@ Using PySpark and Python interchangeably for better graphical presentation.
 - I choose logistic regression, linear svm, decision tree and random forest classifier to train for baseline model algorithms.
 - Parametric tuning of the baseline model for better model performance.
 
-#### Project submission link: [my project on Github](https://github.com/farhadkpx/Udacity-Data-Science-Capstone-Project-)
+#### My Project submission: [link on Github](https://github.com/farhadkpx/Udacity-Data-Science-Capstone-Project-)
 
 ## Key File Descriptions:
 1. mini_sparkify_event_data.json: Carefully fabricated music streaming data was provided by Udacity. This file is not available in the repository due to enormous size.
 2. sparkify.ipynb:  PySpark  notebook I’ve created with all necessary steps to build multiple models that predicts churn from the Sparkify data.
 
 ## Running Jupyter notebooks:
-PySpark works incredibly slow while running `Machine Learning model-algorithms` on desktop/Laptop processing environment. Unless you have clustered or cloud computing access, I would say be patient and let your machine do what it supposed to do.
+PySpark works fine with Python Jupyter notebook except when I'm trying to run ML algorithms, it's painstakingly time riddled. Specially when I'm using parametric inputs, 
+it could take hours in time frame. So if you run my notebook then be patient with cross validated grid parameteric algorithms.
 
 ## Result Summary:
-Though the LinearSVC spent more training time, but it can get the highest f1 score 0.702. And the LogisticRegression has a medium training time and f1 score, maybe I can tuning it to get a higher score. So I'll choose LinearSVC and LogisticRegression to tuning, and the result is as follows:
+Logistic Regression model performed better comparative to Linear SVC and best among all the other models I tried. Time, iterations and grid input choice in all combinations it
+provided the best performance.
 
 ## Dataset Scope:
-We worked on a smaller dataset contains a subset (128MB) of the full dataset available (12GB). I doubt this smaller data subset is truly representative of the main set?
+We worked on a smaller dataset contains a subset (128MB) of the full dataset available (12GB). I hope this smaller data subset is truly representative of the main data set?
 
 ## Licensing…acknowledgement:
 Since Udacity has provided us this dataset, they must get the credit as the true provider of Sparkify dataset. So I don't have any licensing entanglement to share with.
