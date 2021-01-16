@@ -30,7 +30,7 @@ Using PySpark and Python interchangeably for better graphical presentation.
 - I choose logistic regression, linear svm, decision tree and random forest classifier to train for baseline model algorithms.
 - Parametric tuning of the baseline model for better model performance.
 
-### `Project files link on Github: `
+#### Project submission link: [my project on Github](https://github.com/farhadkpx/Udacity-Data-Science-Capstone-Project-)
 
 ## Key File Descriptions:
 1. mini_sparkify_event_data.json: Carefully fabricated music streaming data was provided by Udacity. This file is not available in the repository due to enormous size.
