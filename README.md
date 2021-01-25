@@ -9,7 +9,7 @@ This is the final Capstone project of the Udacity Data Scientist Nanodegree prog
 So, our job is performing churning related data analysis, doing feature engineering by mining the customers' data and implementing appropriate ML models to investigate out possible reasons of customer churning. The goal is if we were able to predict precisely when and how possible customer churning might happen then we will identify those customers and offer them relevant promotions to keep them as continued customer thereby maximizing revenues.
 
 ## Blog post:
-#### Please check my blog post on medium:[blog link](https://freda31k.medium.com/customer-attrition-analyses-on-sparkify-music-streaming-service-43441d275bf4)
+#### Please check my blog post on medium: [blog link](https://freda31k.medium.com/customer-attrition-analyses-on-sparkify-music-streaming-service-43441d275bf4)
 
 ## `Key File Descriptions:`
 1. mini_sparkify_event_data.json: Carefully fabricated music streaming data was provided by Udacity. This file is not available in the repository due to enormous size.
